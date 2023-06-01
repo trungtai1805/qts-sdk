@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=IdCard.Lite-1.0.1.aar" 
+  - mvn install:install-file $FILE -DgroupId=io.kyc -DartifactId=kyc -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
