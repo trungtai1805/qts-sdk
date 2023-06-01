@@ -1,2 +1,0 @@
-configurations.maybeCreate("default")
-artifacts.add("default", file('IdCard.Lite-1.0.1.aar'))
